@@ -956,6 +956,12 @@ hr{
     height: 45%;
    }
 
+   .about .content img{
+    width:100%;
+    height: 50vh;
+  }
+
+
    .hidden{
     display: block;
    }
