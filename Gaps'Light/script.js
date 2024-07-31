@@ -64,3 +64,29 @@ function closeDropDown(){
   document.body.classList.remove('no-scroll');
 } 
 
+window.addEventListener('scroll', function() {
+  const works = document.querySelectorAll('#work');
+  const works2 = document.querySelectorAll('#work2');
+  
+  var windowHeight = window.innerHeight;
+
+  works.forEach(function(work) {
+    var workTop = work.getBoundingClientRect().top;
+
+    // Check if the box is within the viewport
+    if (workTop < windowHeight ) {
+      work.style.animation = 'slideInLeft 1s ease-in-out';
+    } 
+  });
+  works2.forEach(function(work2) {
+    var workTop = work2.getBoundingClientRect().top;
+
+    // Check if the box is within the viewport
+    if (workTop < windowHeight ) {
+      work2.style.animation = 'slideInRight 1s ease-in-out';
+    } 
+  });
+
+
+});
+
