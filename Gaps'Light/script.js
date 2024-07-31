@@ -71,7 +71,7 @@ function change(){
   if(person == "akeem"){
    document.getElementById("person-icon").textContent = "Click To Meet Mr. Hakeem Garba";
    person = "eze"
-   document.getElementById("content-image").src = "images/Eze.png"
+   document.getElementById("content-image").src = "images/eze.png"
    document.getElementById("content-text").innerHTML = `<b id="content-text-name">Ulohomuno Eze Afieroho</b><br>
           <span id="content-text-degree">MBA, PMP.PRINCE2,COREN, PhD</span><br><br> Eze is an infrastructure and major projects expert. He works with real estate, infrastructure and capital-intensive industries, government and non-governmental organisations to unlock opportunities and improved performance by optimizing the delivery of major projects and the use of infrastructure assets. This is guided by his over 15 years of work experience that spans, project management, policy, strategy and operations, financial modelling, and commercial expertise applied across the infrastructure value chain including structuring public private partnerships.`
  
